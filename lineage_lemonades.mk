@@ -23,7 +23,17 @@ PRODUCT_MODEL := LE2101
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# RisingOS Flags
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 870" \
+    RisingMaintainer="Neokoni" \
     BuildDesc="OnePlus9R_IND-user 14 UKQ1.230924.001 R.1b68875-1-5727a release-keys" \
     BuildFingerprint=OnePlus/OnePlus9R_IND/OnePlus9R:14/UKQ1.230924.001/R.1b68875-1-5727a:user/release-keys \
     DeviceName=OnePlus9R \
