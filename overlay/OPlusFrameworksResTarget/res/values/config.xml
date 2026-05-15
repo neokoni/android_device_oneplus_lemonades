@@ -96,7 +96,6 @@
         <item>63</item>
         <item>86</item>
         <item>150</item>
-        <item>160</item>
         <item>220</item>
         <item>270</item>
         <item>360</item>
@@ -106,11 +105,37 @@
         <item>1000</item>
         <item>2000</item>
         <item>3100</item>
-        <item>5000</item>
-        <item>8000</item>
-        <item>12000</item>
-        <item>16000</item>
-        <item>20000</item>
+        <item>3988</item>
+        <item>5018</item>
+        <item>6232</item>
+        <item>7648</item>
+        <item>9280</item>
+        <item>11146</item>
+        <item>13261</item>
+        <item>15640</item>
+        <item>18302</item>
+        <item>21260</item>
+        <item>24532</item>
+        <item>28133</item>
+        <item>32080</item>
+        <item>36388</item>
+        <item>41073</item>
+        <item>46153</item>
+        <item>51642</item>
+        <item>63912</item>
+        <item>78015</item>
+        <item>94076</item>
+        <item>112226</item>
+        <item>132592</item>
+        <item>155302</item>
+        <item>180486</item>
+        <item>208271</item>
+        <item>223180</item>
+        <item>255108</item>
+        <item>264674</item>
+        <item>300751</item>
+        <item>336829</item>
+        <item>481138</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -127,31 +152,56 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0487</item>
-        <item>4.8394</item>
-        <item>15.2619</item>
-        <item>30.2619</item>
-        <item>46.671</item>
-        <item>65.95</item>
-        <item>80.46</item>
-        <item>84.38</item>
-        <item>89.51</item>
-        <item>100.34</item>
-        <item>102.21</item>
-        <item>109.48</item>
-        <item>114.19</item>
-        <item>123.86</item>
-        <item>129.18</item>
-        <item>138.07</item>
-        <item>145.62</item>
-        <item>168.84</item>
-        <item>234.9</item>
-        <item>280</item>
-        <item>320</item>
-        <item>360</item>
-        <item>405</item>
-        <item>450</item>
+        <item>0.9065347386163637</item>
+        <item>2.141399040396364</item>
+        <item>6.753278921896364</item>
+        <item>14.6022582</item>
+        <item>21.682140963636364</item>
+        <item>27.85491374818182</item>
+        <item>33.83298975672727</item>
+        <item>37.33753172472727</item>
+        <item>39.60751913581819</item>
+        <item>44.39971478145455</item>
+        <item>48.444097810181816</item>
+        <item>50.88665736363636</item>
+        <item>52.06811279981818</item>
+        <item>54.30270079709091</item>
+        <item>58.041763881636356</item>
+        <item>62.47554046236363</item>
+        <item>73.9184009790909</item>
+        <item>103.94152882363636</item>
+        <item>123.4554556909091</item>
+        <item>132.7478018181818</item>
+        <item>141.59765527272725</item>
+        <item>150.44750872727272</item>
+        <item>159.2973621818182</item>
+        <item>168.14721563636363</item>
+        <item>176.9970690909091</item>
+        <item>185.84692254545456</item>
+        <item>194.696776</item>
+        <item>203.54662945454544</item>
+        <item>212.3964829090909</item>
+        <item>221.24633636363635</item>
+        <item>230.0961898181818</item>
+        <item>238.94604327272728</item>
+        <item>247.7958967272727</item>
+        <item>256.6457501818182</item>
+        <item>265.4956036363636</item>
+        <item>274.34545709090906</item>
+        <item>292.045164</item>
+        <item>309.7448709090909</item>
+        <item>327.4445778181818</item>
+        <item>345.14428472727275</item>
+        <item>362.8439916363636</item>
+        <item>380.54369854545456</item>
+        <item>398.2434054545455</item>
+        <item>415.9431123636363</item>
+        <item>442.4926727272727</item>
+        <item>486.74194</item>
         <item>500</item>
+        <item>550</item>
+        <item>600</item>
+        <item>800</item>
     </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -163,70 +213,135 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>0.0</item>
-        <item>2.1</item>
-        <item>2.31</item>
-        <item>2.63</item>
-        <item>3.16</item>
-        <item>3.73</item>
-        <item>4.42</item>
-        <item>5.45</item>
-        <item>6.69</item>
-        <item>8.07</item>
-        <item>9.65</item>
-        <item>11.32</item>
-        <item>13.26</item>
-        <item>15.59</item>
-        <item>18.14</item>
-        <item>20.68</item>
-        <item>23.58</item>
-        <item>26.38</item>
-        <item>29.67</item>
-        <item>32.83</item>
-        <item>36.03</item>
-        <item>39.31</item>
-        <item>43.8</item>
-        <item>47.95</item>
-        <item>52.08</item>
-        <item>56.86</item>
-        <item>61.83</item>
-        <item>67.93</item>
-        <item>73.37</item>
-        <item>79.96</item>
-        <item>86.15</item>
-        <item>90.75</item>
-        <item>97.83</item>
-        <item>105.67</item>
-        <item>112.79</item>
-        <item>120.33</item>
-        <item>127.82</item>
-        <item>135.71</item>
-        <item>145.0</item>
-        <item>153.32</item>
-        <item>161.78</item>
-        <item>170.61</item>
-        <item>179.7</item>
-        <item>190.25</item>
-        <item>201.81</item>
-        <item>212.07</item>
-        <item>222.79</item>
-        <item>234.01</item>
-        <item>246.43</item>
-        <item>257.49</item>
-        <item>269.8</item>
-        <item>281.41</item>
-        <item>293.94</item>
-        <item>307.58</item>
-        <item>322.53</item>
-        <item>335.82</item>
-        <item>349.68</item>
-        <item>364.86</item>
-        <item>379.57</item>
-        <item>398.55</item>
-        <item>413.85</item>
-        <item>429.97</item>
-        <item>442.89</item>
-        <item>461.76</item>
-        <item>478.65</item>
+        <item>2.2439639173228345</item>
+        <item>5.4837140535433075</item>
+        <item>7.334082871653544</item>
+        <item>14.4697758503937</item>
+        <item>22.159102062992126</item>
+        <item>29.474306661417323</item>
+        <item>37.1207317007874</item>
+        <item>44.470513377952756</item>
+        <item>52.425334645669295</item>
+        <item>60.21113661417323</item>
+        <item>68.14474003149606</item>
+        <item>75.20726877165355</item>
+        <item>82.49232967716536</item>
+        <item>89.3842351496063</item>
+        <item>96.02842907874016</item>
+        <item>104.07948078740158</item>
+        <item>110.77960881889764</item>
+        <item>117.18521070866142</item>
+        <item>124.9346457480315</item>
+        <item>131.04354417322836</item>
+        <item>138.4253638582677</item>
+        <item>145.80851598425195</item>
+        <item>154.0610407086614</item>
+        <item>161.51214952755905</item>
+        <item>168.88531070866142</item>
+        <item>175.83058039370079</item>
+        <item>183.51730874015746</item>
+        <item>190.92452566929134</item>
+        <item>199.57301362204726</item>
+        <item>206.65671874015746</item>
+        <item>214.18523275590553</item>
+        <item>221.8069037007874</item>
+        <item>229.40550661417322</item>
+        <item>237.31730196850395</item>
+        <item>246.04407433070867</item>
+        <item>253.9429542519685</item>
+        <item>261.172755984252</item>
+        <item>268.57747881889765</item>
+        <item>276.17048023622044</item>
+        <item>283.5331398425197</item>
+        <item>291.577265984252</item>
+        <item>300.1348340944882</item>
+        <item>307.9532644094488</item>
+        <item>315.3345177165354</item>
+        <item>322.6272107086614</item>
+        <item>330.12237645669296</item>
+        <item>337.662728503937</item>
+        <item>346.76620212598425</item>
+        <item>354.6219336220472</item>
+        <item>362.8342557480315</item>
+        <item>370.6714594488189</item>
+        <item>378.10196433070865</item>
+        <item>385.31494488188974</item>
+        <item>395.2638755905512</item>
+        <item>402.49014133858265</item>
+        <item>411.1000851968504</item>
+        <item>418.60690826771656</item>
+        <item>426.3051560629921</item>
+        <item>433.6363911811024</item>
+        <item>443.9979613385827</item>
+        <item>452.3909534645669</item>
+        <item>460.2981307086614</item>
+        <item>468.2720777165354</item>
+        <item>475.7416648818898</item>
+        <item>483.52729992125984</item>
+        <item>486.95943338582674</item>
+        <item>490.8577462992126</item>
+        <item>495.0779702362205</item>
+        <item>498.130598976378</item>
+        <item>502.25705173228346</item>
+        <item>506.09313007874016</item>
+        <item>514.4561781889763</item>
+        <item>518.4336407874016</item>
+        <item>522.4339379527559</item>
+        <item>526.2546356692912</item>
+        <item>529.7889850393701</item>
+        <item>534.0184897637795</item>
+        <item>540.4190998425197</item>
+        <item>544.6419537007873</item>
+        <item>549.0963627559055</item>
+        <item>553.1305988188976</item>
+        <item>557.4094016535433</item>
+        <item>563.5893998425196</item>
+        <item>569.2899391338583</item>
+        <item>573.616655984252</item>
+        <item>577.8399518897638</item>
+        <item>582.1801683464568</item>
+        <item>586.8322434645669</item>
+        <item>592.3632352755906</item>
+        <item>596.6060434645669</item>
+        <item>601.0237907874016</item>
+        <item>605.6606618110236</item>
+        <item>610.0008860629921</item>
+        <item>614.1603993700787</item>
+        <item>623.275397480315</item>
+        <item>627.107957007874</item>
+        <item>631.2622406299212</item>
+        <item>636.1164617322835</item>
+        <item>640.8791585826772</item>
+        <item>645.5417068503937</item>
+        <item>652.4424720472441</item>
+        <item>656.3560638582677</item>
+        <item>660.5375362204725</item>
+        <item>665.240612992126</item>
+        <item>669.887224488189</item>
+        <item>675.7104625984252</item>
+        <item>684.0734126771654</item>
+        <item>688.7919792913385</item>
+        <item>692.787947007874</item>
+        <item>697.4553707874015</item>
+        <item>702.047438503937</item>
+        <item>709.4756111023622</item>
+        <item>714.163731968504</item>
+        <item>718.9119736220473</item>
+        <item>723.5474296062993</item>
+        <item>727.6188392125985</item>
+        <item>732.3207476377953</item>
+        <item>740.7983026771653</item>
+        <item>746.9846301574803</item>
+        <item>752.0200624409449</item>
+        <item>757.1441229921261</item>
+        <item>761.7329501574803</item>
+        <item>765.8916872440944</item>
+        <item>773.0320492913386</item>
+        <item>777.9344734645668</item>
+        <item>783.0174443307087</item>
+        <item>788.0559696850394</item>
+        <item>792.4951700787402</item>
+        <item>796.55792</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -234,102 +349,186 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
+        <item>1</item>
+        <item>2</item>
         <item>4</item>
-        <item>8</item>
-        <item>12</item>
-        <item>16</item>
-        <item>20</item>
-        <item>24</item>
-        <item>28</item>
-        <item>32</item>
-        <item>36</item>
-        <item>40</item>
-        <item>44</item>
-        <item>48</item>
-        <item>52</item>
-        <item>56</item>
-        <item>60</item>
-        <item>64</item>
-        <item>68</item>
-        <item>72</item>
-        <item>76</item>
-        <item>80</item>
-        <item>84</item>
-        <item>88</item>
-        <item>92</item>
-        <item>96</item>
-        <item>100</item>
-        <item>104</item>
-        <item>108</item>
-        <item>112</item>
-        <item>116</item>
-        <item>120</item>
-        <item>123</item>
-        <item>127</item>
-        <item>131</item>
-        <item>135</item>
-        <item>139</item>
-        <item>143</item>
-        <item>147</item>
-        <item>151</item>
-        <item>155</item>
-        <item>159</item>
-        <item>163</item>
-        <item>167</item>
-        <item>171</item>
-        <item>175</item>
-        <item>179</item>
-        <item>183</item>
-        <item>187</item>
-        <item>191</item>
-        <item>195</item>
-        <item>199</item>
-        <item>203</item>
-        <item>207</item>
-        <item>211</item>
-        <item>215</item>
-        <item>219</item>
-        <item>223</item>
-        <item>227</item>
-        <item>231</item>
-        <item>235</item>
-        <item>239</item>
-        <item>243</item>
-        <item>246</item>
-        <item>251</item>
-        <item>255</item>
+        <item>5</item>
+        <item>9</item>
+        <item>13</item>
+        <item>17</item>
+        <item>21</item>
+        <item>25</item>
+        <item>29</item>
+        <item>33</item>
+        <item>37</item>
+        <item>41</item>
+        <item>45</item>
+        <item>49</item>
+        <item>53</item>
+        <item>57</item>
+        <item>61</item>
+        <item>65</item>
+        <item>69</item>
+        <item>73</item>
+        <item>77</item>
+        <item>81</item>
+        <item>85</item>
+        <item>89</item>
+        <item>93</item>
+        <item>97</item>
+        <item>101</item>
+        <item>105</item>
+        <item>109</item>
+        <item>113</item>
+        <item>117</item>
+        <item>121</item>
+        <item>125</item>
+        <item>129</item>
+        <item>133</item>
+        <item>137</item>
+        <item>141</item>
+        <item>145</item>
+        <item>149</item>
+        <item>153</item>
+        <item>157</item>
+        <item>161</item>
+        <item>165</item>
+        <item>169</item>
+        <item>173</item>
+        <item>177</item>
+        <item>181</item>
+        <item>185</item>
+        <item>189</item>
+        <item>193</item>
+        <item>197</item>
+        <item>201</item>
+        <item>205</item>
+        <item>209</item>
+        <item>213</item>
+        <item>217</item>
+        <item>221</item>
+        <item>225</item>
+        <item>229</item>
+        <item>233</item>
+        <item>237</item>
+        <item>241</item>
+        <item>245</item>
+        <item>249</item>
+        <item>253</item>
+        <item>257</item>
+        <item>261</item>
+        <item>265</item>
+        <item>269</item>
+        <item>273</item>
+        <item>277</item>
+        <item>281</item>
+        <item>285</item>
+        <item>289</item>
+        <item>293</item>
+        <item>297</item>
+        <item>301</item>
+        <item>305</item>
+        <item>309</item>
+        <item>313</item>
+        <item>317</item>
+        <item>321</item>
+        <item>325</item>
+        <item>329</item>
+        <item>333</item>
+        <item>337</item>
+        <item>341</item>
+        <item>345</item>
+        <item>349</item>
+        <item>353</item>
+        <item>357</item>
+        <item>361</item>
+        <item>365</item>
+        <item>369</item>
+        <item>373</item>
+        <item>377</item>
+        <item>381</item>
+        <item>385</item>
+        <item>389</item>
+        <item>393</item>
+        <item>397</item>
+        <item>401</item>
+        <item>405</item>
+        <item>409</item>
+        <item>413</item>
+        <item>417</item>
+        <item>421</item>
+        <item>425</item>
+        <item>429</item>
+        <item>433</item>
+        <item>437</item>
+        <item>441</item>
+        <item>445</item>
+        <item>449</item>
+        <item>453</item>
+        <item>457</item>
+        <item>461</item>
+        <item>465</item>
+        <item>469</item>
+        <item>473</item>
+        <item>477</item>
+        <item>481</item>
+        <item>485</item>
+        <item>489</item>
+        <item>493</item>
+        <item>497</item>
+        <item>501</item>
+        <item>505</item>
+        <item>509</item>
     </integer-array>
+
+    <!-- Note: This setting is deprecated, please use
+    config_screenBrightnessSettingMinimumFloat instead -->
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
+
+    <!-- Note: This setting is deprecated, please use
+    config_screenBrightnessSettingMaximumFloat instead -->
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
 
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">6</integer>
+    <item type="dimen" format="float" name="config_screenBrightnessDimFloat">0.0021978</item>
+
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <item type="dimen" format="float" name="config_screenBrightnessDozeFloat">0.0534833</item>
 
     <!-- Default screen brightness setting set.
          -2 is invalid so setting will resort to int value specified above.
          Must be in the range specified by minimum and maximum. -->
-    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.45882353</item>
+    <item type="dimen" format="float" name="config_screenBrightnessSettingDefaultFloat">0.186813</item>
 
     <!-- Maximum screen brightness allowed by the power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 1.0 for maximum brightness range.
          The user is forbidden from setting the brightness above this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
+    <item type="dimen" format="float" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
 
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.001954079</item>
+    <item type="dimen" format="float" name="config_screenBrightnessSettingMinimumFloat">0.001954079</item>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
+
+    <!-- Slow brightness animation ramp rate in brightness units per second-->
+    <integer name="config_brightness_ramp_rate_slow">60</integer>
+
+    <!-- Fast brightness animation ramp rate in brightness units per second-->
+    <integer name="config_brightness_ramp_rate_fast">180</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
