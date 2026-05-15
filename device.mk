@@ -27,6 +27,11 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.ramdisk
 
+# Display
+# The display ID can be obtained by observing output of `adb shell dumpsys display | grep local`
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946950956839809.xml
+
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 

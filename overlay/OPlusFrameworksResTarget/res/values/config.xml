@@ -96,7 +96,6 @@
         <item>63</item>
         <item>86</item>
         <item>150</item>
-        <item>160</item>
         <item>220</item>
         <item>270</item>
         <item>360</item>
@@ -106,11 +105,35 @@
         <item>1000</item>
         <item>2000</item>
         <item>3100</item>
-        <item>5000</item>
-        <item>8000</item>
-        <item>12000</item>
-        <item>16000</item>
-        <item>20000</item>
+        <item>3988</item>
+        <item>5018</item>
+        <item>6232</item>
+        <item>7648</item>
+        <item>9280</item>
+        <item>11146</item>
+        <item>13261</item>
+        <item>15640</item>
+        <item>18302</item>
+        <item>21260</item>
+        <item>24532</item>
+        <item>28133</item>
+        <item>32080</item>
+        <item>36388</item>
+        <item>41073</item>
+        <item>46153</item>
+        <item>51642</item>
+        <item>63912</item>
+        <item>78015</item>
+        <item>94076</item>
+        <item>112226</item>
+        <item>132592</item>
+        <item>155302</item>
+        <item>180486</item>
+        <item>208271</item>
+        <item>223180</item>
+        <item>255108</item>
+        <item>279105</item>
+        <item>307967</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -127,201 +150,82 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0487</item>
-        <item>4.8394</item>
-        <item>15.2619</item>
-        <item>30.2619</item>
-        <item>46.671</item>
-        <item>65.95</item>
-        <item>80.46</item>
-        <item>84.38</item>
-        <item>89.51</item>
-        <item>100.34</item>
-        <item>102.21</item>
-        <item>109.48</item>
-        <item>114.19</item>
-        <item>123.86</item>
-        <item>129.18</item>
-        <item>138.07</item>
-        <item>145.62</item>
-        <item>168.84</item>
-        <item>234.9</item>
-        <item>280</item>
-        <item>320</item>
-        <item>360</item>
-        <item>405</item>
-        <item>450</item>
-        <item>500</item>
-    </array>
-
-    <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
-         values in the config_screenBrightnessBacklight array.  On OLED displays these  values
-         should be measured with an all white image while the display is in the fully on state.
-         Note that this value should *not* reflect the maximum brightness value for any high
-         brightness modes but only the maximum brightness value obtainable in a sustainable manner.
-
-         This array should be equal in size to config_screenBrightnessBacklight -->
-    <array name="config_screenBrightnessNits">
         <item>0.0</item>
-        <item>2.1</item>
-        <item>2.31</item>
-        <item>2.63</item>
-        <item>3.16</item>
-        <item>3.73</item>
-        <item>4.42</item>
-        <item>5.45</item>
-        <item>6.69</item>
-        <item>8.07</item>
-        <item>9.65</item>
-        <item>11.32</item>
-        <item>13.26</item>
-        <item>15.59</item>
-        <item>18.14</item>
-        <item>20.68</item>
-        <item>23.58</item>
-        <item>26.38</item>
-        <item>29.67</item>
-        <item>32.83</item>
-        <item>36.03</item>
-        <item>39.31</item>
-        <item>43.8</item>
-        <item>47.95</item>
-        <item>52.08</item>
-        <item>56.86</item>
-        <item>61.83</item>
-        <item>67.93</item>
-        <item>73.37</item>
-        <item>79.96</item>
-        <item>86.15</item>
-        <item>90.75</item>
-        <item>97.83</item>
-        <item>105.67</item>
-        <item>112.79</item>
-        <item>120.33</item>
-        <item>127.82</item>
-        <item>135.71</item>
-        <item>145.0</item>
-        <item>153.32</item>
-        <item>161.78</item>
-        <item>170.61</item>
-        <item>179.7</item>
-        <item>190.25</item>
-        <item>201.81</item>
-        <item>212.07</item>
-        <item>222.79</item>
-        <item>234.01</item>
-        <item>246.43</item>
-        <item>257.49</item>
-        <item>269.8</item>
-        <item>281.41</item>
-        <item>293.94</item>
-        <item>307.58</item>
-        <item>322.53</item>
-        <item>335.82</item>
-        <item>349.68</item>
-        <item>364.86</item>
-        <item>379.57</item>
-        <item>398.55</item>
-        <item>413.85</item>
-        <item>429.97</item>
-        <item>442.89</item>
-        <item>461.76</item>
-        <item>478.65</item>
+        <item>0.757829396275919</item>
+        <item>2.2650184644735645</item>
+        <item>4.884755017350441</item>
+        <item>6.78214042075644</item>
+        <item>8.341423688579544</item>
+        <item>11.323205727108803</item>
+        <item>13.376241609490584</item>
+        <item>15.89598340790672</item>
+        <item>21.42758694705237</item>
+        <item>26.15342478597664</item>
+        <item>29.04228146270301</item>
+        <item>33.584494733762696</item>
+        <item>36.274416512787255</item>
+        <item>39.941729171208706</item>
+        <item>43.971515762899436</item>
+        <item>55.47846532226957</item>
+        <item>77.27273516610973</item>
+        <item>95.02802263828113</item>
+        <item>106.94460592428531</item>
+        <item>119.06425497505188</item>
+        <item>131.7091286246349</item>
+        <item>144.85445676162</item>
+        <item>158.44400786590626</item>
+        <item>172.4634044597517</item>
+        <item>186.87783798702856</item>
+        <item>201.65919311479124</item>
+        <item>216.80618951636356</item>
+        <item>232.28433715604106</item>
+        <item>248.08957189890458</item>
+        <item>264.2035630658876</item>
+        <item>280.61879149560684</item>
+        <item>297.3203031734444</item>
+        <item>314.29873285790353</item>
+        <item>331.5521050023841</item>
+        <item>349.06519276478514</item>
+        <item>384.84520745450845</item>
+        <item>421.5964961916283</item>
+        <item>459.264146307114</item>
+        <item>497.81415027819776</item>
+        <item>537.2074737310327</item>
+        <item>577.4115096596896</item>
+        <item>618.4000528437546</item>
+        <item>660.1443702285762</item>
+        <item>681.2937779155554</item>
+        <item>724.1283516588358</item>
+        <item>754.4272668381999</item>
+        <item>789.0413347827778</item>
     </array>
-
-    <!-- An array describing the screen's backlight values corresponding to the brightness
-         values in the config_screenBrightnessNits array.
-
-         This array should be equal in size to config_screenBrightnessBacklight. -->
-    <integer-array name="config_screenBrightnessBacklight">
-        <item>0</item>
-        <item>4</item>
-        <item>8</item>
-        <item>12</item>
-        <item>16</item>
-        <item>20</item>
-        <item>24</item>
-        <item>28</item>
-        <item>32</item>
-        <item>36</item>
-        <item>40</item>
-        <item>44</item>
-        <item>48</item>
-        <item>52</item>
-        <item>56</item>
-        <item>60</item>
-        <item>64</item>
-        <item>68</item>
-        <item>72</item>
-        <item>76</item>
-        <item>80</item>
-        <item>84</item>
-        <item>88</item>
-        <item>92</item>
-        <item>96</item>
-        <item>100</item>
-        <item>104</item>
-        <item>108</item>
-        <item>112</item>
-        <item>116</item>
-        <item>120</item>
-        <item>123</item>
-        <item>127</item>
-        <item>131</item>
-        <item>135</item>
-        <item>139</item>
-        <item>143</item>
-        <item>147</item>
-        <item>151</item>
-        <item>155</item>
-        <item>159</item>
-        <item>163</item>
-        <item>167</item>
-        <item>171</item>
-        <item>175</item>
-        <item>179</item>
-        <item>183</item>
-        <item>187</item>
-        <item>191</item>
-        <item>195</item>
-        <item>199</item>
-        <item>203</item>
-        <item>207</item>
-        <item>211</item>
-        <item>215</item>
-        <item>219</item>
-        <item>223</item>
-        <item>227</item>
-        <item>231</item>
-        <item>235</item>
-        <item>239</item>
-        <item>243</item>
-        <item>246</item>
-        <item>251</item>
-        <item>255</item>
-    </integer-array>
-
-    <!-- Screen brightness used to dim the screen when the user activity
-         timeout expires.  May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">6</integer>
-
-    <!-- Default screen brightness setting set.
-         -2 is invalid so setting will resort to int value specified above.
-         Must be in the range specified by minimum and maximum. -->
-    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">0.45882353</item>
-
-    <!-- Maximum screen brightness allowed by the power manager.
-         -2 is invalid so setting will resort to int value specified above.
-         Set this to 1.0 for maximum brightness range.
-         The user is forbidden from setting the brightness above this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
 
     <!-- Minimum screen brightness setting allowed by power manager.
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.001954079</item>
+    <item type="dimen" format="float" name="config_screenBrightnessSettingMinimumFloat">0.0009768009768009768</item>
+
+    <!-- Screen brightness used to dim the screen when the user activity
+         timeout expires.  May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <item type="dimen" format="float" name="config_screenBrightnessDimFloat">0.002197802197802198</item>
+
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+         May be less than the minimum allowed brightness setting
+         that can be set by the user. -->
+    <item type="dimen" format="float" name="config_screenBrightnessDozeFloat">0.002197802197802198</item>
+
+    <!-- Default screen brightness setting set.
+         -2 is invalid so setting will resort to int value specified above.
+         Must be in the range specified by minimum and maximum. -->
+    <item type="dimen" format="float" name="config_screenBrightnessSettingDefaultFloat">0.12478632478632479</item>
+
+    <!-- Maximum screen brightness allowed by the power manager.
+         -2 is invalid so setting will resort to int value specified above.
+         Set this to 1.0 for maximum brightness range.
+         The user is forbidden from setting the brightness above this level. -->
+    <item type="dimen" format="float" name="config_screenBrightnessSettingMaximumFloat">1.0</item>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
@@ -333,6 +237,18 @@
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
+
+    <!-- Control whether the always on display mode is available. This should only be enabled on
+         devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
+         states. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
