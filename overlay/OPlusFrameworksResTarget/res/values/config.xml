@@ -134,6 +134,10 @@
         <item>255108</item>
         <item>279105</item>
         <item>307967</item>
+        <item>394553</item>
+        <item>481138</item>
+        <item>625448</item>
+        <item>841913</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -151,53 +155,57 @@
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
         <item>0.0</item>
-        <item>0.757829396275919</item>
-        <item>2.2650184644735645</item>
-        <item>4.884755017350441</item>
-        <item>6.78214042075644</item>
-        <item>8.341423688579544</item>
-        <item>11.323205727108803</item>
-        <item>13.376241609490584</item>
-        <item>15.89598340790672</item>
-        <item>21.42758694705237</item>
-        <item>26.15342478597664</item>
-        <item>29.04228146270301</item>
-        <item>33.584494733762696</item>
-        <item>36.274416512787255</item>
-        <item>39.941729171208706</item>
-        <item>43.971515762899436</item>
-        <item>55.47846532226957</item>
-        <item>77.27273516610973</item>
-        <item>95.02802263828113</item>
-        <item>106.94460592428531</item>
-        <item>119.06425497505188</item>
-        <item>131.7091286246349</item>
-        <item>144.85445676162</item>
-        <item>158.44400786590626</item>
-        <item>172.4634044597517</item>
-        <item>186.87783798702856</item>
-        <item>201.65919311479124</item>
-        <item>216.80618951636356</item>
-        <item>232.28433715604106</item>
-        <item>248.08957189890458</item>
-        <item>264.2035630658876</item>
-        <item>280.61879149560684</item>
-        <item>297.3203031734444</item>
-        <item>314.29873285790353</item>
-        <item>331.5521050023841</item>
-        <item>349.06519276478514</item>
-        <item>384.84520745450845</item>
-        <item>421.5964961916283</item>
-        <item>459.264146307114</item>
-        <item>497.81415027819776</item>
-        <item>537.2074737310327</item>
-        <item>577.4115096596896</item>
-        <item>618.4000528437546</item>
-        <item>660.1443702285762</item>
-        <item>681.2937779155554</item>
-        <item>724.1283516588358</item>
-        <item>754.4272668381999</item>
-        <item>789.0413347827778</item>
+        <item>0.7749049478428321</item>
+        <item>2.2908442818520176</item>
+        <item>4.831042331304464</item>
+        <item>6.610982520641826</item>
+        <item>8.044028709588629</item>
+        <item>10.724309256437992</item>
+        <item>12.532104423348477</item>
+        <item>14.71655088150859</item>
+        <item>19.40615221925021</item>
+        <item>23.322277897901547</item>
+        <item>25.683209452988226</item>
+        <item>29.352693481052</item>
+        <item>31.50408915531864</item>
+        <item>34.41419419258074</item>
+        <item>37.5843606896632</item>
+        <item>46.50229952919765</item>
+        <item>62.97353723599691</item>
+        <item>76.0894236616435</item>
+        <item>84.77224539403164</item>
+        <item>93.51873244902129</item>
+        <item>102.56399639051527</item>
+        <item>111.88958612396749</item>
+        <item>121.45541807073776</item>
+        <item>131.25156582266595</item>
+        <item>141.25406791884245</item>
+        <item>151.44402286881893</item>
+        <item>161.8211583200781</item>
+        <item>172.36249933517024</item>
+        <item>183.06599731270794</item>
+        <item>193.91992765954862</item>
+        <item>204.91991381187074</item>
+        <item>216.056608662283</item>
+        <item>227.32444172529654</item>
+        <item>238.72272126021713</item>
+        <item>250.2419861564829</item>
+        <item>273.62921720620443</item>
+        <item>297.4628989075093</item>
+        <item>321.7114461413428</item>
+        <item>346.3566811385627</item>
+        <item>371.3770389676682</item>
+        <item>396.7549500785644</item>
+        <item>422.4767550092979</item>
+        <item>448.52708311984344</item>
+        <item>461.6723684437931</item>
+        <item>488.19299313559316</item>
+        <item>506.87298122145364</item>
+        <item>528.1370967100701</item>
+        <item>585.697075122813</item>
+        <item>636.2683233987707</item>
+        <item>709.8764991752784</item>
+        <item>803.5943537155523</item>
     </array>
 
     <!-- Minimum screen brightness setting allowed by power manager.

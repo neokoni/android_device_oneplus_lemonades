@@ -37,7 +37,7 @@
     <highBrightnessMode enabled="true">
         <transitionPoint>0.4998778998778999</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
-        <minimumLux>107014</minimumLux>
+        <minimumLux>253362</minimumLux>
         <timing>
             <timeWindowSecs>1800</timeWindowSecs>
             <timeMaxSecs>300</timeMaxSecs>
