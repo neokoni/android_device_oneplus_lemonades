@@ -30,3 +30,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9R \
     SystemDevice=OnePlus9R \
     SystemName=OnePlus9R
+
+# FIXME: Temp fix for refresh rate stuck at 60Hz. Test regularly and remove if fixed.
+#        The package simply set refresh rate to 60Hz and then back (to 60 or 120) to force a refresh.
+PRODUCT_PACKAGES += \
+    LemonadesRefreshRateHack

@@ -1,0 +1,18 @@
+android_app {
+    name: "LemonadesRefreshRateHack",
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+    platform_apis: true,
+    
+    // System permissions required
+    // But to ensure hack package can be easily disabled for testing purposes, no platform certificate.
+    privileged: true,
+    required: ["privapp-permissions-org.lineageos.lemonades.refreshratehack.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-org.lineageos.lemonades.refreshratehack.xml",
+    sub_dir: "permissions",
+    src: "privapp-permissions-org.lineageos.lemonades.refreshratehack.xml",
+    filename_from_src: true,
+}
