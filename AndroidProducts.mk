@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_lemonades.mk
+    $(LOCAL_DIR)/uwu_lemonades.mk

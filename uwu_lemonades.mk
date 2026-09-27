@@ -13,9 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonades/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+$(call inherit-product, vendor/uwu/config/common.mk)
 
-PRODUCT_NAME := custom_lemonades
+# uwuAOSP
+UWU_DEVICE_TYPE := phone
+UWU_SUPPORTS_TELEPHONY := true
+UWU_MAINTAINER := Neokoni
+
+PRODUCT_NAME := uwu_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
